@@ -1,0 +1,52 @@
+body{
+    margin: 0%;
+    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+    background-attachment: fixed;
+}
+#form{
+    margin: 20vh auto 0 auto;
+    width: 350px;
+    background-color: #004d7a;
+    border-radius: 8px;
+
+    padding: 20px;
+}
+h3{
+    text-align: center;
+}
+.input-group{
+    display: flex;
+    flex-direction: column;
+}
+
+button{
+    width: 100%;
+    padding: 15px;
+    margin-top: 15px;
+    background-color: #a8eb12;
+    border:1px solid #a8eb12;
+    color: #051937;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 8px;
+}
+.input-group input{
+    padding: 14px;
+    margin: 12px 0px;
+    border-radius: 8px;
+    border: 0px;
+    font-size: 16px;
+}
+input:focus{
+    outline: 0px;
+}
+.input-group .error{
+    color:#a8eb12;
+} 
+#input-group error:focus{
+    outline: 1px #cb0c0c;
+}
+.input-group .success {
+    color: #051937;
+}
